@@ -1,4 +1,4 @@
-# Chapada Advanced Analytics
+# Advanced Analytics
 
 Aplicacion web desarrollada con Streamlit para explorar datos operativos de Chapada y consultar informacion mediante Databricks AI/BI Genie.
 
