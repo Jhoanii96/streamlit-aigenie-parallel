@@ -1,0 +1,16 @@
+command: ["streamlit", "run", "app.py"]
+env:
+  - name: "DATABRICKS_HOST"
+    value: "https://<workspace-host>"
+  - name: "DATABRICKS_WAREHOUSE_ID"
+    value: "<warehouse-id>"
+  - name: "GENIE_SPACE_ID"
+    value: "<genie-space-id>"
+  - name: "HTTP_PATH_METRIC"
+    value: "/sql/1.0/warehouses/<warehouse-id>"
+  - name: "TABLE_METRIC_NAME"
+    value: "<catalog>.<schema>.<metric-table>"
+  - name: "HTTP_PATH_KPI_DICT"
+    value: "/sql/1.0/warehouses/<warehouse-id>"
+  - name: "TABLE_KPI_NAME"
+    value: "<catalog>.<schema>.<kpi-table>"
